@@ -2,7 +2,8 @@
   {
     "name": "강원대 장학공지(750) - 목록",
     "url": "https://kangwon.ac.kr/ko/bbs/750/list.do",
-    "selector": " #search-form .table-list.pc table tbody
+    "selector": " #search-form > div.card > div.table.table-list.pc > div > table > tbody > tr:nth-child(1) > td.text-left.link-ellipsis.title > a
+
 
  
 ",
